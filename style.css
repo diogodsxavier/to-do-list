@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    background: url(img/fantasy-landscape.png.png);
+    padding: 10px;
+}
+
+.container {
+    width: 550px;
+    background: #d1d1d1;
+    margin: 50px auto 0;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.input-task {
+    margin-bottom: 40px;
+    border: none;
+    border-radius: 10px;
+    width: 400px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.add-task-button {
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    padding: 0 10px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #fff;
+    background-color: #003329;
+    float: right;
+    cursor: pointer;
+}
+
+.add-task-button:hover {
+    opacity: 0.8;
+}
+
+.add-task-button:active {
+    opacity: 0.6;
+}
+
+.list-task {
+    width: 100%;
+    list-style: none;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.task {
+    background-color: #f2f2f2;
+    box-shadow: 1px 1px 5dvw rgba(0, 0, 0, 0.247);
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    display: flex;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+img {
+    height: 25px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.task:hover img {
+    opacity: 1;
+}
+
+.done {
+    background-color: #8fac55;
+    text-decoration: line-through;
+}
