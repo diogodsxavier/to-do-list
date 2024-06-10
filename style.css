@@ -7,7 +7,7 @@
 }
 
 body {
-    background: url(img/fantasy-landscape.png.png);
+    background-color: aqua;
     padding: 10px;
 }
 
@@ -80,6 +80,23 @@ img {
 }
 
 .done {
-    background-color: #8fac55;
+    background-color: #66c6f3;
     text-decoration: line-through;
+}
+
+@media screen and (max-width: 650px){
+    .container {
+        width: 100%;
+        margin-top: 30px;
+        margin: 0;
+    }
+
+    .input-task {
+        width: 60%;
+    }
+
+    img  {
+        transition: none;
+        opacity: 1;
+    }
 }
